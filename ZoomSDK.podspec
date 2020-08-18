@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZoomSDK"
-  s.version      = "0.0.2"
+  s.version      = "5.0.24433.0616"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
-                  RNZoomUs
+                  Pod for zoom-sdk-ios.
                    DESC
   s.homepage     = "https://github.com/zvs001/zoom-sdk-pods"
   s.license      = "MIT"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 #   s.source_files  = "lib/**/*.{h,m}"
   s.requires_arc = true
 
-  s.libraries = "sqlite3", "z.1.2.5", "c++"
+#  s.libraries = "sqlite3", "z.1.2.5", "c++"
 
   s.vendored_frameworks =  "lib/MobileRTC.framework", "lib/MobileRTCScreenShare.framework"
   s.resource = 'lib/MobileRTCResources.bundle'

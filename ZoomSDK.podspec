@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "author" => "zvsx001@gmail.com" }
   s.platform     = :ios, "9.0"
 
-  s.source = { :http => 'https://github.com/zvs001/zoom-sdk-pods/releases/download/5.4/zoom-sdk-ios-5.4.54802.0124.zip' }
+  s.source = { :http => 'https://github.com/zvs001/zoom-sdk-pods/releases/download/5.4/zoom-sdk-ios-5.4.54802.0124-all.zip' }
 #   s.source_files  = "lib/**/*.{h,m}"
   s.requires_arc = true
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks =  "lib/MobileRTC.framework", "lib/MobileRTCScreenShare.framework"
   s.resource = 'lib/MobileRTCResources.bundle'
 
-
+  s.weak_framework = 'VideoToolbox'
 
   s.license      =  { :type => 'MIT', :text => <<-LICENSE
  MIT License

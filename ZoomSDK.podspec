@@ -1,17 +1,17 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZoomSDK"
-  s.version      = "5.0.24433.0616"
+  s.version      = "5.4.54802.0124"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
                   Pod for zoom-sdk-ios.
                    DESC
   s.homepage     = "https://github.com/zvs001/zoom-sdk-pods"
-  s.license      = "MIT"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "author" => "author@domain.cn" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
-  s.source = { :http => 'https://github.com/zoom/zoom-sdk-ios/releases/download/v5.0.24433.0616/ios-mobilertc-all-5.0.24433.0616-clientlog.zip' }
+  s.source = { :http => 'https://github.com/zvs001/zoom-sdk-pods/releases/download/5.4/zoom-sdk-ios-5.4.54802.0124.zip' }
 #   s.source_files  = "lib/**/*.{h,m}"
   s.requires_arc = true
 

@@ -1,6 +1,7 @@
 
-FILE=ios-mobilertc-all-5.0.24433.0616-clientlog.zip
+REPO=https://github.com/zvs001/zoom-sdk-pods/releases/download/5.4
+FILE=zoom-sdk-ios-5.4.54802.0124.zip
 
-wget "https://github.com/zoom/zoom-sdk-ios/releases/download/v5.0.24433.0616/$FILE"
+wget "$REPO/$FILE"
 tar -xf "$FILE"
 rm "$FILE"

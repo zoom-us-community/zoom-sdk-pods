@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZoomSDK"
-  s.version      = "5.4.54802.0124"
+  s.version      = "5.4.54802.0124.1"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
                   Pod for zoom-sdk-ios.
@@ -19,7 +19,13 @@ Pod::Spec.new do |s|
   s.vendored_frameworks =  "lib/MobileRTC.framework", "lib/MobileRTCScreenShare.framework"
   s.resource = 'lib/MobileRTCResources.bundle'
 
-  s.weak_framework = 'VideoToolbox'
+  s.libraries = "sqlite3", "z.1.2.5", "c++"
+  s.weak_framework = 'VideoToolbox', 'CoreMedia'
+
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.license      =  { :type => 'MIT', :text => <<-LICENSE
  MIT License

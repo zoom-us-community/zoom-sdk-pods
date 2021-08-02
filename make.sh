@@ -1,6 +1,6 @@
 
-REPO=https://github.com/zvs001/zoom-sdk-pods/releases/download/5.4
-FILE=zoom-sdk-ios-5.4.54802.0124-all.zip
+REPO=https://github.com/zvs001/zoom-sdk-pods/releases/download/5.5.12511.0421
+FILE=zoom-sdk-ios-5.5.12511.0421.zip
 
 wget "$REPO/$FILE"
 tar -xf "$FILE"

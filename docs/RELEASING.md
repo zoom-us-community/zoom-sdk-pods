@@ -19,4 +19,6 @@ Note: It may use cached results, so you need to clean cache sometimes:
 
 #### 3 Publish
 
+Authorize: `pod trunk register zvsx001@gmail.com 'Vlad Zaynchkovsky'`
+
 If you are sure package is ok, you may publish: `pod trunk push`

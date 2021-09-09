@@ -1,6 +1,6 @@
 ### About
 
-This is cocoapod for Zoom IOS SDK. 
+This is cocoapods for Zoom IOS SDK. 
 
 Pod includes all architectures.
 (Device and Emulator)
@@ -14,16 +14,18 @@ Pod includes sdk list:
 ### Usage
 Update your Podfile:
 ```
-pod 'ZoomSDK', '5.5.12511.0421'
+pod 'ZoomSDK', '5.7.1.644'
 ```
 
 
 ### Versions
 
+- 5.7.1.644
 - 5.5.12511.0421
 - 5.4.54802.0124.1
 
 
 ### Note
 
-If there is a new version available, just create issue.
+If there is a new version available, just create issue. 
+We will try to add it within few days.

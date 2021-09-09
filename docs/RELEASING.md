@@ -2,6 +2,13 @@
 
 ### Releasing commands
 
+
+#### New sdk required
+
+Just download sdks from zoom marketplace and upload it to releases.
+After that we can try to use it.
+We rely on that their archive has `lib` directory with `MobileRTC` and other sdks inside.
+
 #### 1 Install
 
 Install locally first: `./make.sh`

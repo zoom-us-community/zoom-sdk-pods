@@ -5,9 +5,11 @@
 
 #### New sdk required
 
-Just download sdks from zoom marketplace and upload it to releases.
-After that we can try to use it.
-We rely on that their archive has `lib` directory with `MobileRTC` and other sdks inside.
+Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.7.1.645.zip`)
+Edit existing release https://github.com/zoom-us-community/zoom-sdk-pods/releases/edit/zoom-releases
+Upload the downloaded .zip file
+Change the release title to the version name of the sdk. (for example `5.7.1.645`)
+After that we can try to use it. We rely on that their archive has `lib` directory with `MobileRTC` and other sdks inside.
 
 #### 1 Install
 

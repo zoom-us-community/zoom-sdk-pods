@@ -5,16 +5,18 @@
 
 #### New sdk required
 
-Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.7.1.645.zip`)
-Edit existing release https://github.com/zoom-us-community/zoom-sdk-pods/releases/edit/zoom-releases
-Upload the downloaded .zip file
-Change the release title to the version name of the sdk. (for example `5.7.1.645`)
-After that we can try to use it. We rely on that their archive has `lib` directory with `MobileRTC` and other sdks inside.
+1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.7.1.645.zip`)
+2) Edit existing release https://github.com/zoom-us-community/zoom-sdk-pods/releases/edit/zoom-releases
+3) Upload the downloaded .zip file
 
-#### 1 Install
+After that we can try to use it. 
+
+Important: We rely on: that their archive has `lib` directory with `MobileRTC` and other sdks inside.
+
+#### 1 Install (optional)
 
 Install locally first: `./make.sh`
-It is important if want to link your local pod: 
+It is important if you want to link your local pod: 
 ```Podfile  
 pod 'ZoomSDK', :path => '/Users/zvsx001/work/opensource/zoom-sdk-pods'
 ```
@@ -25,6 +27,9 @@ Check if there are no errors `pod spec lint --verbose`
 
 Note: It may use cached results, so you need to clean cache sometimes:
 `pod cache clean ZoomSDK`
+
+Note: Starting from 5.9.1.2191 they changed archs, and lint is not working for me anymore. 
+So I have to test connection manually linking to project
 
 #### 3 Publish
 

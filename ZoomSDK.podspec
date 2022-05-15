@@ -19,10 +19,8 @@ Pod::Spec.new do |s|
   s.libraries = "sqlite3", "z.1.2.5", "c++"
   s.weak_framework = 'VideoToolbox', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'ReplayKit'
 
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-#   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # Source: https://stackoverflow.com/a/64139830/3042620
+  s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
 
   s.license      =  { :type => 'MIT', :text => <<-LICENSE
  MIT License

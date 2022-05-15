@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZoomSDK"
-  s.version      = "5.9.6.2769"
+  s.version      = "5.10.3.3244"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
                   Pod for zoom-sdk-ios.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "author" => "zvsx001@gmail.com" }
   s.platform     = :ios, "9.0"
 
-  s.source = { :http => 'https://github.com/zoom-us-community/zoom-sdk-pods/releases/download/zoom-releases/zoom-sdk-ios-5.9.6.2769.zip' }
+  s.source = { :http => 'https://github.com/zoom-us-community/zoom-sdk-pods/releases/download/zoom-releases/zoom-sdk-ios-5.10.3.3244.zip' }
   s.requires_arc = true
 
   s.vendored_frameworks =  "**/lib/MobileRTC.xcframework", "**/lib/MobileRTCScreenShare.xcframework"
@@ -19,10 +19,8 @@ Pod::Spec.new do |s|
   s.libraries = "sqlite3", "z.1.2.5", "c++"
   s.weak_framework = 'VideoToolbox', 'CoreMedia', 'CoreVideo', 'CoreGraphics', 'ReplayKit'
 
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-#   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  # Source: https://stackoverflow.com/a/64139830/3042620
+  s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
 
   s.license      =  { :type => 'MIT', :text => <<-LICENSE
  MIT License

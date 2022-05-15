@@ -5,7 +5,7 @@
 
 #### New sdk required
 
-1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.7.1.645.zip`)
+1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.10.3.3244.zip`)
 2) Edit existing release https://github.com/zoom-us-community/zoom-sdk-pods/releases/edit/zoom-releases
 3) Upload the downloaded .zip file
 

@@ -15,12 +15,13 @@ Pod includes sdk list:
 ### Usage
 Update your Podfile:
 ```
-pod 'ZoomSDK', '5.9.6.2769'
+pod 'ZoomSDK', '5.10.3.3244'
 ```
 
 
 ### Versions
 
+- 5.10.3.3244
 - 5.9.6.2769
 - 5.9.1.2191
 - 5.7.1.645

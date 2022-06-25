@@ -2,6 +2,9 @@
 
 ### Releasing commands
 
+#### Setup CocoaPods
+Make sure you have Ruby installed with at least version 3.1 because it includes bundle: `brew install ruby@3.1`
+Run `bundle install` to install specified version of CocoaPods
 
 #### New sdk required
 
@@ -23,13 +26,13 @@ pod 'ZoomSDK', :path => '/Users/zvsx001/work/opensource/zoom-sdk-pods'
 
 #### 2 Lint
 
-Check if there are no errors `pod spec lint --verbose`
+Check if there are no errors `bundle exec pod spec lint --verbose`
 
 Note: It may use cached results, so you need to clean cache sometimes:
-`pod cache clean ZoomSDK`
+`bundle exec pod cache clean ZoomSDK`
 
 #### 3 Publish
 
-Authorize: `pod trunk register zvsx001@gmail.com 'Vlad Zaynchkovsky'`
+Authorize: `bundle exec pod trunk register zvsx001@gmail.com 'Vlad Zaynchkovsky'`
 
-If you are sure package is ok, you may publish: `pod trunk push`
+If you are sure package is ok, you may publish: `bundle exec pod trunk push`

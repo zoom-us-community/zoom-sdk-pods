@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZoomSDK"
-  s.version      = "5.11.0.3907"
+  s.version      = "5.11.3.4099"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
                   Pod for zoom-sdk-ios.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386'
   }
-  
+
   s.license      =  { :type => 'MIT', :text => <<-LICENSE
  MIT License
 

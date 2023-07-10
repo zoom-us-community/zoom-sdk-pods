@@ -18,11 +18,13 @@ Important: We rely on: that their archive has `lib` directory with `MobileRTC` a
 
 #### 1 Install (optional)
 
-Install locally first: `./make.sh`
-It is important if you want to link your local pod: 
+1) Remove existing builds: `rm -fr zoom-sdk-ios-*`
+2) Install locally: `./make.sh`
+3) Link your local pod:
 ```Podfile  
 pod 'ZoomSDK', :path => '/Users/zvsx001/work/opensource/zoom-sdk-pods'
 ```
+4) Update version in podspec, e.g. `s.dependency "ZoomSDK", '5.13.10.7064'`
 
 #### 2 Lint
 

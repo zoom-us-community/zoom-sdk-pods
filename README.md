@@ -21,7 +21,6 @@ pod 'ZoomSDK', '5.16.5.11131'
 
 ### Versions
 
-
 |    Version    | Notes                                  | 
 |:-------------:|:---------------------------------------|
 | 5.16.5.11131  |                                        |
@@ -35,8 +34,9 @@ pod 'ZoomSDK', '5.16.5.11131'
 |  5.9.1.2191   |                                        |
 |  5.9.1.3662   | Minimum version after November 5, 2022 |
 
+[SDK minimum version policy](https://developers.zoom.us/docs/video-sdk/minimum-version/)
 
 ### Note
-
+ 
 If there is a new version available, just create issue. 
 We will try to add it within few days.

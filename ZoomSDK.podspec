@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZoomSDK"
-  s.version      = "5.15.12.10118"
+  s.version      = "5.16.5.11131"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
                   Pod for zoom-sdk-ios.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "author" => "zvsx001@gmail.com" }
   s.platform     = :ios, "9.0"
 
-  s.source = { :http => 'https://octoguild-statics.s3.amazonaws.com/zoom-sdk-pods/zoom-sdk-ios-5.15.12.10118.zip' }
+  s.source = { :http => 'https://octoguild-statics.s3.amazonaws.com/zoom-sdk-pods/zoom-sdk-ios-5.16.5.11131.zip' }
   s.requires_arc = true
 
   s.vendored_frameworks =  "**/lib/MobileRTC.xcframework", "**/lib/MobileRTCScreenShare.xcframework"

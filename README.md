@@ -15,7 +15,7 @@ Pod includes sdk list:
 ### Usage
 Update your Podfile:
 ```
-pod 'ZoomSDK', '5.16.5.11131'
+pod 'ZoomSDK', '5.17.10.13930'
 ```
 
 
@@ -23,6 +23,7 @@ pod 'ZoomSDK', '5.16.5.11131'
 
 |    Version    | Notes                                  | 
 |:-------------:|:---------------------------------------|
+| 5.17.10.13930 |                                        |
 | 5.16.5.11131  |                                        |
 | 5.15.12.10118 |                                        |
 | 5.14.11.8690  | Minimum after February 3, 2024         |

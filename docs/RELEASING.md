@@ -8,7 +8,7 @@ Run `bundle install` to install specified version of CocoaPods
 
 #### New sdk required
 
-1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.14.11.8690.zip`)
+1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-5.17.11.14222.zip`)
 2) Edit existing release https://github.com/zoom-us-community/zoom-sdk-pods/releases/edit/zoom-releases
     - **WARN**: Github decreased limits, so we cannot update zip file there. Last sdks use s3 owned by @zvs001, but you can upload file yo your S3 bucket.
 3) Upload the downloaded .zip file
@@ -25,7 +25,7 @@ Important: We rely on: that their archive has `lib` directory with `MobileRTC` a
 ```Podfile  
 pod 'ZoomSDK', :path => '/Users/zvsx001/work/opensource/zoom-sdk-pods'
 ```
-4) Update version in podspec, e.g. `s.dependency "ZoomSDK", '5.14.11.8690'`
+4) Update version in podspec, e.g. `s.dependency "ZoomSDK", '5.17.11.14222'`
 
 #### 2 Lint
 

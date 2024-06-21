@@ -15,7 +15,7 @@ Pod includes sdk list:
 ### Usage
 Update your Podfile:
 ```
-pod 'ZoomSDK', '5.17.11.14222'
+pod 'ZoomSDK', '6.1.0.16235'
 ```
 
 
@@ -23,6 +23,7 @@ pod 'ZoomSDK', '5.17.11.14222'
 
 |    Version    | Notes                                  | 
 |:-------------:|:---------------------------------------|
+| 6.1.0.16235 | Minimum iOS is 12.0                    |
 | 5.17.11.14222 | Minimum iOS is 12.0                    |
 | 5.17.10.13930 |                                        |
 | 5.16.5.11131  |                                        |

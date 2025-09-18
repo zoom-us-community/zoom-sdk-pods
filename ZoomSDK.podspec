@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/zoom-us-community/zoom-sdk-pods"
   s.author       = { "author" => "zvsx001@gmail.com" }
-  s.platform     = :ios, "12.0"
+  s.platform     = :ios, "13.0"
 
   s.source = { :http => 'https://github.com/zoom-us-community/zoom-sdk-pods/releases/download/zoom-releases/zoom-sdk-ios-6.1.0.16235.zip' }
   s.requires_arc = true

@@ -26,9 +26,6 @@ pod 'ZoomSDK', '6.1.0.16235'
 | 6.1.0.16235   | Minimum iOS is 13.0                    |
 | 5.17.11.14222 | Minimum iOS is 12.0                    |
 | 5.17.10.13930 |                                        |
-| 5.16.5.11131  |                                        |
-| 5.15.12.10118 | Minimum after May 4, 2024              |
-| 5.14.11.8690  | Minimum after February 3, 2024         |
 
 [SDK minimum version policy](https://developers.zoom.us/docs/video-sdk/minimum-version/)
 

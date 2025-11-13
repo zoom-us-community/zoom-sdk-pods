@@ -8,7 +8,7 @@ Run `bundle install` to install specified version of CocoaPods
 
 #### New sdk required
 
-1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-6.1.0.16235.zip`)
+1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-6.2.11.20350.zip`)
 2) Edit existing release https://github.com/zoom-us-community/zoom-sdk-pods/releases/edit/zoom-releases
 3) Upload the downloaded .zip file
 
@@ -20,11 +20,15 @@ Important: We rely on: that their archive has `lib` directory with `MobileRTC` a
 
 1) Remove existing builds: `rm -fr zoom-sdk-ios-*`
 2) Install locally: `./make.sh`
-3) Link your local pod:
+3) Link your local pod (e.g. `react-native-zoom-us-test/ios/Podfile`):
 ```Podfile  
 pod 'ZoomSDK', :path => '/Users/zvsx001/work/opensource/zoom-sdk-pods'
 ```
-4) Update version in podspec, e.g. `s.dependency "ZoomSDK", '6.1.0.16235'`
+Make sure to remove `ZoomSDK` from `Podfile.lock`.
+4) Update version in podspec (e.g. `react-native-zoom-us/RNZoomUs.podspec`):
+```Podfile
+s.dependency "ZoomSDK", '6.2.11.20350'
+```
 
 #### 2 Lint
 

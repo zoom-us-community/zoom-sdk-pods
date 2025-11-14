@@ -1,6 +1,6 @@
 
 REPO=https://github.com/zoom-us-community/zoom-sdk-pods/releases/download/zoom-releases
-FILE=zoom-sdk-ios-6.2.11.20350.zip
+FILE=zoom-sdk-ios-6.4.10.25465.zip
 
 curl "$REPO/$FILE" -O -J -L
 tar -xf "$FILE"

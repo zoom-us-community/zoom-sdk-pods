@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source = { :http => 'https://github.com/zoom-us-community/zoom-sdk-pods/releases/download/zoom-releases/zoom-sdk-ios-6.5.10.27930.zip' }
   s.requires_arc = true
 
-  s.vendored_frameworks =  "**/lib/MobileRTC.xcframework", "**/lib/MobileRTCScreenShare.xcframework"
+  s.vendored_frameworks =  "**/lib/MobileRTC.xcframework", "**/lib/MobileRTCScreenShare.xcframework", "**/lib/zoomcml.xcframework"
   s.resource = '**/lib/MobileRTCResources.bundle'
 
   s.libraries = "sqlite3", "z.1.2.5", "c++"

@@ -8,8 +8,9 @@ Architectures may vary between pods.
 
 
 Pod includes sdk list:
-- MobileRTC.framework
-- MobileRTCScreenShare.framework
+- MobileRTC.xcframework
+- MobileRTCScreenShare.xcframework
+- zoomcml.xcframework
 - MobileRTCResources.bundle
 
 ### Usage
@@ -23,7 +24,7 @@ pod 'ZoomSDK', '6.5.10.27930'
 
 |    Version    | Notes                                  | 
 |:-------------:|:---------------------------------------|
-| 6.5.10.27930  |                                        |
+| 6.5.10.27930  | Included zoomcml                       |
 | 6.4.10.25465  |                                        |
 | 6.2.11.20350  |                                        |
 | 6.1.0.16235   | Minimum iOS is 13.0                    |

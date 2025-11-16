@@ -8,7 +8,7 @@ Run `bundle install` to install specified version of CocoaPods
 
 #### New sdk required
 
-1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-6.4.10.25465.zip`)
+1) Download sdk .zip from zoom marketplace (for example `zoom-sdk-ios-6.5.10.27930.zip`)
 2) Edit existing release https://github.com/zoom-us-community/zoom-sdk-pods/releases/edit/zoom-releases
 3) Upload the downloaded .zip file
 
@@ -27,7 +27,7 @@ pod 'ZoomSDK', :path => '/Users/zvsx001/work/opensource/zoom-sdk-pods'
 Make sure to remove `ZoomSDK` from `Podfile.lock`.
 4) Update version in podspec (e.g. `react-native-zoom-us/RNZoomUs.podspec`):
 ```Podfile
-s.dependency "ZoomSDK", '6.4.10.25465'
+s.dependency "ZoomSDK", '6.5.10.27930'
 ```
 
 #### 2 Lint

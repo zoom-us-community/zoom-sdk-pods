@@ -1,16 +1,16 @@
 
 Pod::Spec.new do |s|
   s.name         = "ZoomSDK"
-  s.version      = "6.5.10.27930"
+  s.version      = "6.6.10.30439"
   s.summary      = "Pod for zoom-sdk-ios"
   s.description  = <<-DESC
                   Pod for zoom-sdk-ios.
                    DESC
   s.homepage     = "https://github.com/zoom-us-community/zoom-sdk-pods"
   s.author       = { "author" => "zvsx001@gmail.com" }
-  s.platform     = :ios, "13.0"
+  s.platform     = :ios, "15.0"
 
-  s.source = { :http => 'https://github.com/zoom-us-community/zoom-sdk-pods/releases/download/zoom-releases/zoom-sdk-ios-6.5.10.27930.zip' }
+  s.source = { :http => 'https://github.com/zoom-us-community/zoom-sdk-pods/releases/download/zoom-releases/zoom-sdk-ios-6.6.10.30439.zip' }
   s.requires_arc = true
 
   s.vendored_frameworks =  "**/lib/MobileRTC.xcframework", "**/lib/MobileRTCScreenShare.xcframework", "**/lib/zoomcml.xcframework"
